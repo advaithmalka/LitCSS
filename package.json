@@ -1,6 +1,6 @@
 {
   "name": "css-litcss",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "A CSS utility library that is meant to cover classes the Bootstrap is missing",
   "main": "main/litcss.css",
   "scripts": {
