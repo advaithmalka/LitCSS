@@ -1,5 +1,5 @@
 # LitCSS
-A CSS utility library that is meant to cover classes the Bootstrap is missing
+A CSS utility library that is meant to cover classes that Bootstrap is missing
 
 ### Currently Version 1.2.3
 
@@ -12,7 +12,7 @@ https://advaithm26.github.io/litcss.html
 ```npm
 npm i css-litcss
 ```
-Then add this link tag in the ```<head>``` tag of your html document
+Then add this link tag in the ```<head>``` tag of your HTML document
 
 ```html
 <link rel="stylesheet" type="text/css" href="path/to/css-litcss/main/css/litcss.css"/>
@@ -20,24 +20,35 @@ Then add this link tag in the ```<head>``` tag of your html document
 
 Some componets require litJS; to see if you need to use litJS see the  [documentation](https://advaithm26.github.io/litcss-docs.html)
 
-### Using a CDN
-
-Place this at the bottom of your HTML document
+If you require litJS add this ```<script>``` tag at the bottom of your HTML docuemnt
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/grid-view-js@1.4.0/main/grid-view.js" crossorigin="anonymous"></script>
+<script src="path/to/css-litcss/main/js/litjs.js"></script>
+```
+
+### Using a CDN
+
+Place this ```<link>``` tag in your document's ```<head>``` tag
+
+```html
+<link src="https://cdn.jsdelivr.net/npm/css-litcss/main/css/litcss.min.css" crossorigin="anonymous"/>
+```
+
+To use litJS place this at the bottom of your HTML document
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/css-litcss/main/js/litjs.js" crossorigin="anonymous"></script>
 ```
 
 ### Download directly to your PC
 
-The download link can be found [here](https://advaithm26.github.io/cjs.html)
+The download link can be found [here](https://advaithm26.github.io/litcss.html)
 
 ## Documentation
 
 The full documentation can be found here:
 
-https://advaithm26.github.io/cjs-docs.html
-
+https://advaithm26.github.io/litcss-docs.html
 
 ## Contribute
 
