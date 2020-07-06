@@ -1,7 +1,7 @@
 # LitCSS
 A CSS utility library that is meant to cover classes that Bootstrap is missing
 
-# !!DOCUMENTATION STILL IN THE WORKS!!
+## !!DOCUMENTATION STILL IN THE WORKS!!
 
 ### Currently Version 1.2.3
 
