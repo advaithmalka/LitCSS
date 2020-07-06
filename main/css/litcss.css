@@ -1533,7 +1533,36 @@ button.no-outline {
 }
 
 /*!SECTION */
-/*SECTION ANIMATED HAMBURGER*/
+/*SECTION NOTE*/
+.note, .note-primary, .note-warning, .note-danger, .note-success {
+  padding: 15px;
+  color: black;
+  margin: 10px;
+  border-left: 5px #9b9b9b solid;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.note-primary {
+  background-color: #bedcff;
+  border-left: 5px #007bff solid;
+}
+
+.note-warning {
+  background-color: #fffbbd;
+  border-left: 5px #ffc107 solid;
+}
+
+.note-danger {
+  background-color: #ffc5cb;
+  border-left: 5px #dc3545 solid;
+}
+
+.note-success {
+  background-color: #a9ffbd;
+  border-left: 5px #28a745 solid;
+}
+
 /*!SECTION */
 /*SECTION LINEAR GRADIENTS*/
 /*SECTION BLACK - WHITE*/

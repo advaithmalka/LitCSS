@@ -7,7 +7,19 @@
 * https://marketplace.visualstudio.com/items?itemName=ExodiusStudios.comment-anchors
 */
 //SECTION scss variables
-$color-primary: #007bff;
+$color-blue: hsl(211, 100%, 50%);
+$color-yellow: #ffc107;
+$color-green: #28a745;
+$color-info: #17a2b8;
+$color-red: #dc3545;
+$color-grey: #6c757d;
+
+$color-lightblue: #bedcff;
+$color-lightyellow: #fffbbd;
+$color-lightred: #ffc5cb;
+$color-lightgreen: #a9ffbd;
+
+
 //!SECTION
 
 //SECTION SCSS mixins
@@ -58,7 +70,7 @@ body {
 	outline: none !important;
 }
 .bg-blue {
-	background-color: $color-primary !important;
+	background-color: $color-blue !important;
 }
 .bg-black {
 	background-color: black !important;
@@ -597,7 +609,7 @@ body {
 }
 .slider.slider-primary,
 .slider.slider-blue {
-	background-color: $color-primary;
+	background-color: $color-blue;
 }
 .slider.slider-green,
 .slider.slider-success {
@@ -646,7 +658,7 @@ input:checked + .slider.slider-checked-danger {
 }
 input:checked + .slider.slider-checked-blue,
 input:checked + .slider.slider-checked-primary {
-	background-color: $color-primary;
+	background-color: $color-blue;
 }
 input:checked + .slider.slider-checked-green,
 input:checked + .slider.slider-checked-success {
@@ -1031,7 +1043,7 @@ button.no-outline {
 /*!SECTION */
 /*SECTION FILL-COLORS*/
 .fill-primary {
-	fill: $color-primary;
+	fill: $color-blue;
 }
 /*!SECTION */
 
@@ -1157,7 +1169,7 @@ button.no-outline {
 
 .progress-bar {
 	height: 5px;
-	background: $color-primary;
+	background: $color-blue;
 	width: 0%;
 	border-top-right-radius: 5px !important;
 	border-bottom-right-radius: 5px !important;
@@ -1213,7 +1225,35 @@ button.no-outline {
 @include position(right, 85);
 @include position(right, 100);
 /*!SECTION */
-/*SECTION ANIMATED HAMBURGER*/
+/*SECTION NOTE*/
+.note{
+	padding: 15px;
+	color: black;
+	margin: 10px;
+	border-left: 5px #9b9b9b solid;
+	background-color: #fff;
+	border-radius: 5px;
+}
+.note-primary{
+	@extend .note;
+	background-color: $color-lightblue;
+	border-left: 5px $color-blue solid;
+}
+.note-warning{
+	@extend .note;
+	background-color: $color-lightyellow;
+	border-left: 5px $color-yellow solid;
+}
+.note-danger{
+	@extend .note;
+	background-color: $color-lightred;
+	border-left: 5px $color-red solid;
+}
+.note-success{
+	@extend .note;
+	background-color: $color-lightgreen;
+	border-left: 5px $color-green solid;
+}
 /*!SECTION */
 /*SECTION LINEAR GRADIENTS*/
 /*SECTION BLACK - WHITE*/
