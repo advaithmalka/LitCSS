@@ -28,3 +28,13 @@
 		#{$posType}: $sizeP + px !important;
 	}
 }
+
+@mixin overflow($overflow-direction, $overflow-type){
+	.overflow#{$overflow-direction}-#{$overflow-type}{
+		overflow#{$overflow-direction}: $overflow-type !important;
+	}
+}
+
+//@mixin border($b-direction, $b-size){
+	//.border#{$b-direction}
+//}
