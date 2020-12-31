@@ -27,12 +27,12 @@
 		"name": "Advaith Malka"
 	},
 	"bugs": {
-		"url": "https://github.com/AdvaithM26/LitCSS/issues"
+		"url": "https://github.com/advaithmalka/LitCSS/issues"
 	},
 	"bundleDependencies": false,
 	"deprecated": false,
 	"description": "A CSS utility library that is meant to cover classes the Bootstrap is missing",
-	"homepage": "https://github.com/AdvaithM26/LitCSS#readme",
+	"homepage": "https://github.com/advaithmalka/LitCSS#readme",
 	"keywords": [
 		"css",
 		"css-library",
@@ -43,7 +43,7 @@
 	"name": "css-litcss",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/AdvaithM26/LitCSS.git"
+		"url": "git+https://github.com/advaithmalka/LitCSS.git"
 	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
